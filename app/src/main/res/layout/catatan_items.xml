@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <!--    NIM : 10119288
+        Nama : Muhamad Dimas
+        Kelas : IF-7
+        Tanggal : Rabu, 11 Agustus 2022 -->
+    <TextView
+        android:id="@+id/txJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txTanggalBuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:textSize="16sp"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <TextView
+            android:id="@+id/txIsiCatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isi"
+            android:textSize="16sp" />
+    </ScrollView>
+</LinearLayout>
